@@ -61,7 +61,3 @@ GeoLib_prototipo/
 | PATCH  | `/api/loans/:id`                         | Aggiornamento prestito (proprietario) |
 | GET    | `/api/stats`                             | Statistiche account (JWT)             |
 | POST   | `/api/books/:id/view`                    | Registra visualizzazione scheda       |
-
-## Limiti e sviluppi futuri
-
-Questo è un **prototipo universitario**, non un prodotto pronto alla pubblicazione. Mancano ancora: verifica email, reset password, sistema reale di upload immagini, notifiche, moderazione, flussi completi di consenso/informativa/privacy, gestione amministrativa, test automatici e un deployment sicuro con HTTPS. Attualmente le coordinate dei libri esistono nel backend e l'API le restituisce. La navigazione sulla mappa dipende dalla connessione internet.
