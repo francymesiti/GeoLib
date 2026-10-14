@@ -1,0 +1,1 @@
+{"name":"geolib-prototipo","private":true,"scripts":{"dev":"concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"","install:all":"npm --prefix server install && npm --prefix client install"},"devDependencies":{"concurrently":"^9.1.2"}}
